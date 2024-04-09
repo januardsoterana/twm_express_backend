@@ -1,0 +1,35 @@
+{
+  "name": "twm_backend",
+  "version": "1.0.0",
+  "description": "TWM Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "dev": "npm run server"
+  },
+  "author": "Cezar",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "bcryptjs": "^2.4.3",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "config": "^3.3.3",
+    "cors": "^2.8.5",
+    "ethers": "5.7.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.8.1",
+    "fs": "^0.0.1-security",
+    "gravatar": "^1.8.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^5.11.8",
+    "normalize-url": "^5.3.0",
+    "request": "^2.88.2",
+    "sqlite3": "^5.1.6",
+    "socket.io": "4.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
